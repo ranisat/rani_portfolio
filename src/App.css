@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+   --body_bg:linear-gradient(#D7ECFF, #FFFFFF, #FFCDF4);;
+   --text_black:#000000;
+   --text_gray:#9C9C9C;
+   --color_purple:#8E006E;
+   --color_white:#fff;
+   --dark_bg:linear-gradient(#111827, #111827, #111827)
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior:smooth;
+}
+body{
+  background-image:var(--body_bg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100%;
+  min-height:100vh;
+}
+.dark{
+  background-image:var(--dark_bg);
+}
+#root{
+  height:100%;
+}
+.tech{
+  transition:1s ease;
+}
+.tech:hover{
+  background:linear-gradient(#a3d3ff, #FFFFFF, #FFCDF4);
+}
+#custom-animation .inset-0{
+  background:linear-gradient(#a3d3ff, #FFFFFF, #FFCDF4);
+  padding: 0px 10px;
+  z-index:-1;
+}
+#custom-animation .tabHead{
+  border: 1px dashed #7e7e7e;
+  border-radius: 100px;
+  padding: 0 2px 0 2px;
+  overflow:hidden;
+}
+#custom-animation .tab{
+  padding: 5px 20px;
+}
+.dark #custom-animation .tab{
+color:#fff;
+}
+/* #custom-animation .tab:hover{
+  background:linear-gradient(#D7ECFF, #FFFFFF, #FFCDF4);
+} */

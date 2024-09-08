@@ -1,0 +1,12 @@
+/* //Add font family */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+  @apply hover:bg-color_purple border-2 border-color_purple text-color_purple rounded text-[16px] font-medium px-4 py-2 bg-white  hover:border-2 hover:text-color_white duration-300 transition-all ease-in dark:text-white dark:bg-slate-900 dark:border-gray-400 dark:hover:bg-black dark:hover:border-gray-50;
+}
+.inputStyle{
+  @apply px-3 py-2 min-w-full border border-gray-300 rounded my-2;
+}
